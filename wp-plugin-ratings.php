@@ -1,4 +1,5 @@
 <?php
+
 /**
  * rating plugin with custom post type and small frontend
  *
@@ -15,9 +16,10 @@
  * License:           MIT
  */
 
+
 // no access if you call it directly
 if (!defined('ABSPATH')) {
-  exit;
+	exit;
 }
 
 // add scripts like css or js to our plugin
